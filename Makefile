@@ -5,3 +5,6 @@ docker_up:
 
 docker_stop:
 	docker stop my-redis
+
+run:
+	go run ./cmd/main.go
